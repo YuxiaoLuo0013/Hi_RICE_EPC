@@ -253,7 +253,7 @@ if __name__ == "__main__":
     next_obs= envs.reset()[0]
     next_obs=next_obs[0]
     res_obs=next_obs[1]
-    hzone_id=envs[0].epc_env.tab_region_person['ranked_hzone']
+    hzone_id=envs.epc_env.tab_region_person['ranked_hzone']
     next_obs = torch.Tensor(next_obs).to(device)
     res_obs = torch.Tensor(res_obs).to(device)
     next_done = torch.zeros(args.num_envs).to(device)
