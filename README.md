@@ -104,5 +104,5 @@ For Assessing Generalizability with R 0Uncertainty you can run the record_daily_
 
 For Assessing Generalizability with Various Compliance Levels you can run the record_daily_Hirice.py after you train the model, then you need to set the model parameter as the testing phase in README.md. You can easily change the parameters mask_ratio=0.001，0.01，0.1 for different levels in this py file, finally, you can get the results.
 
-##Section 5.6 Visualization of The Intervention Results
+## Section 5.6 Visualization of The Intervention Results
 After training the model, you can use the results from folder 'daily_record' as README.md to visualize the intervention results in the visualization.ipynb file.
