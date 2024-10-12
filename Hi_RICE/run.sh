@@ -31,4 +31,4 @@ python -u train.py \
 --alpha $alpha \
 --wta $wta \
 --wtp $wtp \
---total-timesteps $step >logs/ab/Hi-RICE_p_{$p_trans}_alpha_{$alpha}_wta_{$wta}_wtp_{$wtp}.log
+--total-timesteps $step >logs/Hi-RICE_p_{$p_trans}_alpha_{$alpha}_wta_{$wta}_wtp_{$wtp}.log
