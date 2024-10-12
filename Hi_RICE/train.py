@@ -215,7 +215,6 @@ if __name__ == "__main__":
     values = torch.zeros((args.num_steps, args.num_envs, envs.single_observation_space.shape[1])).to(device)
     indices = ((torch.arange(envs.single_observation_space.shape[1]).unsqueeze(0) + torch.arange(
         envs.single_observation_space.shape[1]).unsqueeze(1)) % envs.single_observation_space.shape[1]).to(device)
-    self.hzone_id=envs[0].env_
     # TRY NOT TO MODIFY: start the game
     global_step = 0
     start_time = time.time()
